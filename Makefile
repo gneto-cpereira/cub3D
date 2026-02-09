@@ -19,7 +19,7 @@ NAME_BONUS = cub3D_bonus
 MSG = make.msg
 CC = cc
 # -g -fsanitize=address
-CFLAGS = -Wall -Wextra -Werror -ffast-math -O3 -Ofast
+CFLAGS = -Wall -Wextra -Werror -ffast-math -O3 -Ofast -Iinclude
 RM = rm -rf
 
 LIBFT_DIR = libraries/libft

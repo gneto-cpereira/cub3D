@@ -31,7 +31,7 @@
 # define WALKING 2
 # define RUNNING 3
 
-# include "../libraries/minilibx-linux/mlx.h"
+# include "mlx.h"
 # define XK_ESCAPE 0xff1b
 # define XK_W 0x0077
 # define XK_A 0x0061

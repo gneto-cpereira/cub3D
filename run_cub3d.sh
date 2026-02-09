@@ -52,15 +52,15 @@ while true; do
     # Valid number
     else
         SELECTED_MAP=${MAPS[$index]}
-        # Execute Docker
         clear
         echo -e "${BLUE}Compiling and launching Cub3D...${NC}"
+        # Execute Docker
         sudo docker run -it --rm \
             -e DISPLAY=$DISPLAY \
             -v /tmp/.X11-unix:/tmp/.X11-unix \
             -v $(pwd):/app \
             --device /dev/snd \
             $IMAGE_NAME \
-            sh -c "make bonus && ./cub3D $SELECTED_MAP"
+            sh -c "make -C libraries/minilibx-linux && make bonus && ./cub3D $SELECTED_MAP"
     fi
 done
