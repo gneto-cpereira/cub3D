@@ -33,23 +33,16 @@ https://github.com/user-attachments/assets/fd99ffcd-2f96-4643-814c-a4928e0859aa
 - **Complex Data Structures:** Efficient use of structs and linked lists to manage game state, sprites, and raycast data.
 - 
 ### 📐 Computer Graphics & Game Math
-**Raycasting Engine:** Implementation of the DDA (Digital Differential Analysis) algorithm to calculate wall distances and perspective.
-
-**Texture Mapping:** Logic to calculate the exact pixel of an XPM/PNG texture to render on a wall based on collision coordinates.
-
-**Trigonometry:** Extensive use of sine and cosine functions for player rotation, field of view (FOV) calculations, and movement vectors.
-
-**Collision Detection:** Implementation of a sliding collision system to allow smooth movement against walls.
+- **Raycasting Engine:** Implementation of the DDA (Digital Differential Analysis) algorithm to calculate wall distances and perspective.
+- **Texture Mapping:** Logic to calculate the exact pixel of an XPM/PNG texture to render on a wall based on collision coordinates.
+- **Trigonometry:** Extensive use of sine and cosine functions for player rotation, field of view (FOV) calculations, and movement vectors.
+- **Collision Detection:** Implementation of a sliding collision system to allow smooth movement against walls.
 
 ### 🏗️ Build Systems & DevOps
-**Containerization:** Docker (Ubuntu 22.04) environment used to handle all graphical and audio dependencies (X 11, ALSA), ensuring portability across different Operating Systems.
-
-**Automation:** Advanced Bash scripting to abstract complex Docker CLI commands and manage game assets.
-
-**Makefiles:** Optimized build system with incremental compilation to handle multiple source subdirectories.
+- **Containerization:** Docker (Ubuntu 22.04) environment used to handle all graphical and audio dependencies (X 11, ALSA), ensuring portability across different Operating Systems.
+- **Automation:** Advanced Bash scripting to abstract complex Docker CLI commands and manage game assets.
+- **Makefiles:** Optimized build system with incremental compilation to handle multiple source subdirectories.
 
 ### 🧩 Data Parsing & Game Assets
-**Scene Description:** Developed a robust parser for .cub files, validating paths for textures, RGB colors for floor/ceiling, and map integrity (closed walls, player starting position).
-
-**Asset Management:** Integration of multiple textures, sprites (ducks/backpacks), and audio files (. Wav) into the game loop.
-
+- **Scene Description:** Developed a robust parser for .cub files, validating paths for textures, RGB colors for floor/ceiling, and map integrity (closed walls, player starting position).
+- **Asset Management:** Integration of multiple textures, sprites (ducks/backpacks), and audio files (. Wav) into the game loop.
