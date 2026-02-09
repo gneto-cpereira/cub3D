@@ -61,6 +61,6 @@ while true; do
             -v $(pwd):/app \
             --device /dev/snd \
             $IMAGE_NAME \
-            sh -c "make -C libraries/minilibx-linux && make bonus && ./cub3D $SELECTED_MAP"
+            sh -c "chmod +x libraries/minilibx-linux/configure && make bonus && ./cub3D $SELECTED_MAP"
     fi
 done
