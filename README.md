@@ -3,6 +3,10 @@
 ### 42 Lisboa group project.
 Cub3D is a 1st-person raycasting engine inspired by the world-famous 90's game Wolfenstein 3D. Built in C using the MiniLibX library, it features dynamic rendering of a 3D environment based on 2D maps, complete with texture mapping, sprite rendering, and collision detection.
 
+This project was developed as part of the **42 School** curriculum by:
+- **Gabriel Pereira** - [gneto-cpereira](https://github.com/gneto-cpereira)
+- **Yaroslav Derevenskyi** - [yadereve](https://github.com/yadereve)  
+
 ## 🚀 How to compile it
 ### Prerequisites
 - Docker installed.
