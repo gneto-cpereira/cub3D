@@ -37,7 +37,7 @@ https://github.com/user-attachments/assets/fd99ffcd-2f96-4643-814c-a4928e0859aa
 - **C Development:** Written in C following strict standards (-Wall -Wextra -Werror) for robust performance.
 - **Memory Safety:** Manual management of the heap and stack. All structures, textures, and sprites are validated via Valgrind to ensure zero memory leaks.
 - **Complex Data Structures:** Efficient use of structs and linked lists to manage game state, sprites, and raycast data.
-- 
+
 ### 📐 Computer Graphics & Game Math
 - **Raycasting Engine:** Implementation of the DDA (Digital Differential Analysis) algorithm to calculate wall distances and perspective.
 - **Texture Mapping:** Logic to calculate the exact pixel of an XPM/PNG texture to render on a wall based on collision coordinates.
